@@ -14,6 +14,7 @@ function updateDriverWithKeyAndValue(obj, key, value){
 
 function deleteFromDriverByKey(obj, key){
   const newDriver = object.assign({}, driver);
+  delete newDriver[key];
   return newDriver;
 }
 //const new1 = updateDriverWithKeyAndValue(driver, name, "Sam");
