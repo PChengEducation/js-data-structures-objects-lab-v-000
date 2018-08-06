@@ -12,7 +12,7 @@ function updateDriverWithKeyAndValue(obj, key, value){
    return driver;
  }
 
-function deleteFromDriverByKey(obj, key){
+function deleteFromDriverByKey(driver, key){
   const newDriver = object.assign({}, driver);
   delete newDriver[key];
   return newDriver;
